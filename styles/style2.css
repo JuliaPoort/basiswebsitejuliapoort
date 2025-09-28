@@ -1,0 +1,285 @@
+@media (max-width: 999px) {
+section:nth-of-type(1) ul {
+	display: flex;
+	overflow: auto;
+	scroll-snap-type: x mandatory;
+	scroll-behavior: smooth;
+	padding: 0;
+	list-style-type: none;
+	overscroll-behavior-x: contain;
+	scrollbar-width: none;
+	scroll-marker-group: after;
+	gap: 1em;
+}
+
+section:nth-of-type(1) li{
+	flex-basis: 100%;
+	flex-shrink: 0;
+	scroll-snap-align: center;
+}
+
+section:nth-of-type(1) ul::scroll-marker-group {
+		margin: 1em 3.5em 0;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-content: center;
+		row-gap:.25em;
+		column-gap:.5em;
+	}
+
+section:nth-of-type(1) li::scroll-marker {
+		content: '' / 'naar' attr(data-label);
+		width:0.5em;
+		aspect-ratio:1;
+		background-color:var(--bolletjescolor2);
+		border-radius:50%;
+		transition:.25s;
+	}
+	section:nth-of-type(1) li::scroll-marker:target-current{
+		background: var(--bolletjescolor1);
+	
+	}
+section:nth-of-type(1) h3 {
+	font-family: "Inter", sans-serif;
+	font-size: small;
+	font-weight: 300;
+	font-style: normal;
+	position: absolute;
+	top: 36rem;
+	margin-left: 0.5em;
+	color: var(--lijstje-tekst);
+	background-color: var(--backgroundcolor2);
+	border-radius: 2em;
+	padding: 0.6em;
+}
+section:nth-of-type(1) h2{
+	font-family: "Inter", sans-serif;
+	font-size: large;
+	font-weight: 600;
+	font-style: normal;
+	margin-left: 1em;
+	margin-bottom: 0em;
+}
+section:nth-of-type(1) p {
+	margin-left: 1.4em;
+}
+section:nth-of-type(1) p:nth-of-type(1) {
+	font-family: "Inter", sans-serif;
+	font-size: small;
+	font-weight: 300;
+	font-style: normal;
+	margin-bottom: 0em;
+}
+section:nth-of-type(1) p:nth-of-type(2) {
+	font-family: "Inter", sans-serif;
+	font-size: small;
+	font-weight: 600;
+	font-style: normal;
+	margin-bottom: 0em;
+}
+section:nth-of-type(1) p:nth-of-type(3) {
+	font-family: "Inter", sans-serif;
+	font-size: small;
+	font-weight: 300;
+	font-style: normal;
+	background-color: var(--backgroundcolor1);
+	margin: 1em;
+	padding: 1em;
+}
+section:nth-of-type(1) button {
+	background-color: var(--backgroundcolor2);
+	font-family: "Inter", sans-serif;
+	font-size: small;
+	font-weight: 300;
+	font-style: normal;
+	color: var(--lijstje-tekst);
+	border: none;
+	display: block;
+	margin: 1em auto;
+	width: 93%;
+    padding: 1em;
+}
+}
+@media (min-width: 1000px) {
+	section:nth-of-type(1){
+		display: flex;
+
+	}
+	section:nth-of-type(1) ul {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 1fr 1fr;
+		list-style-type: none;
+		gap: 1em;
+		scroll-padding-top: 0;
+		scroll-behavior: smooth;
+	}
+	
+	section:nth-of-type(1) h2{
+		font-family: "Inter", sans-serif;
+		font-size: large;
+		font-weight: 600;
+		font-style: normal;
+		margin-left: 1em;
+		margin-bottom: 0em;
+	}
+	section:nth-of-type(1) h3 {
+			font-family: "Inter", sans-serif;
+			font-size: small;
+			font-weight: 400;
+			font-style: normal;
+			margin-left: 1.5em;
+			margin-bottom: 0em;
+	}
+	section:nth-of-type(1) p {
+			font-family: "Inter", sans-serif;
+			font-size: small;
+			font-weight: 400;
+			font-style: normal;
+			margin-left: 1.5em;
+			margin-bottom: 0em;
+		}
+		section:nth-of-type(1) button {
+			background-color: var(--backgroundcolor2);
+			font-family: "Inter", sans-serif;
+			font-size: small;
+			font-weight: 300;
+			font-style: normal;
+			color: var(--lijstje-tekst);
+			border: none;
+			display: block;
+			margin: 1em auto;
+			width: 93%;
+			padding: 1em;
+		}
+		section:nth-of-type(1) button:hover{
+			background-color: var(--buttoncolor);
+			color: var(--color-text);
+			border: 1px solid var(--randcolor2);
+			font-weight: 600;
+			
+		}
+		section:nth-of-type(1) ul:nth-of-type(2){
+			list-style-type: none;
+			display: flex;
+			overflow: auto;
+			scroll-snap-type: x mandatory;
+			scroll-behavior: smooth;
+			padding: 0;
+			list-style-type: none;
+			overscroll-behavior-x: contain;
+			scrollbar-width: none;
+			scroll-marker-group: after;
+			gap: 1em;
+			margin-left: 1em;
+		}
+		section:nth-of-type(1) ul:nth-of-type(2) li{
+			flex-basis: 100%;
+			flex-shrink: 0;
+			scroll-snap-align: center;
+			grid-template-columns: auto 1fr;
+			grid-template-rows:  2em 2em;
+		}
+		section:nth-of-type(1) img:nth-of-type(2) {
+			width: 20%;
+			height: auto;
+		}
+		section:nth-of-type(1) ul:nth-of-type(2):scroll-marker-group {
+			margin: 1em 3.5em 0;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			align-content: center;
+			row-gap:.25em;
+			column-gap:.5em;
+		}
+		section:nth-of-type(1) ul:nth-of-type(2) li::scroll-marker {
+			content: '' / 'naar' attr(data-label);
+			width:0.5em;
+			aspect-ratio:1;
+			background-color:var(--bolletjescolor2);
+			border-radius:50%;
+		
+			transition:.25s;
+		}
+		section:nth-of-type(1) ul:nth-of-type(2) li::scroll-marker:target-current{
+			background: var(--bolletjescolor1);
+		
+		}
+		section:nth-of-type(1) img {
+			width: 100%;
+			height: auto;
+		}
+	
+			section:nth-of-type(1) ul:nth-of-type(2) h2 {
+				font-family: "Inter", sans-serif;
+				font-size: small;
+				font-weight: 600;
+				font-style: normal;
+			}
+			section:nth-of-type(1) ul:nth-of-type(2) p {
+				font-family: "Inter", sans-serif;
+				font-size: small;
+				font-weight: 300;
+				font-style: normal;
+				grid-column: 2 / -1;
+				
+			}
+			section:nth-of-type(1) details{
+				display: none;
+			}
+			section:nth-of-type(1) p:nth-of-type(2) {
+				font-weight: 600;
+			}
+			section:nth-of-type(1) p:nth-of-type(3) {
+				font-family: "Inter", sans-serif;
+				font-size: small;
+				font-weight: 300;
+				font-style: normal;
+				background-color: var(--backgroundcolor1);
+				margin: 1em;
+				padding: 1em;
+			}
+	
+		}
+
+	
+
+
+
+/*******************/
+
+
+
+
+/*****************/
+/*meer over dit product knop*/
+/*****************/
+
+
+/************/
+/* section 4*/
+/************/
+
+
+section:nth-of-type(7) {
+    margin-bottom: 2em;
+}
+@media (min-width: 1000px) {
+	.bezorging p {
+		display: none;
+	}
+}
+@media (max-width: 800px) {
+.bezorging p {
+    font-family: "Inter", sans-serif;
+	font-size: small;
+	font-weight: 300;
+	font-style: normal;
+    text-align: center;
+    color: var(--text-color);
+    background-color: var(--backgroundcolor1);
+    padding: 1em;
+}
+}

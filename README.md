@@ -16,13 +16,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Auteur:
- Julia Poort d
-
+  Julia Poort
   #### Je startniveau:
-  blauw
+  Blauw
 
   #### Je focus:
-  responsive 
+  Responsive
+ 
 </details>
 
 
@@ -36,13 +36,14 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Je opdracht:
   https://www.loavies.com/nl/
+
   #### Screenshot(s) van de eerste pagina (small screen): 
-  Homepagina
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  homepagina
+  <img src="readme-images/loavies screenshot homepagina.jpg" width="375px" alt="screenshot van de homepagina">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  detailpagina
+  <img src="readme-images/loavies screenshot detailpagina.jpg" width="375px" alt="omschrijving van de pagina">
  
 </details>
 
@@ -66,14 +67,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
-
-  ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
-
-  ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
-
+  <img src="breakdownschets homepagina.png" width="375px" alt="breakdown van de homepagina">
+  <img src="breakdownschets detailpagina.png" width="375px" alt="breakdown van de detailpagina">
+  
 </details>
 
 
@@ -86,8 +82,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Het begon heel goed. Ik ben deze week begonnen met allebei mijn html pagina's. Het was moeilijk om niet gelijk
+  te beginnen aan mijn css, maar wel beter voor mezelf. Voor html had ik vooral moeite met wat ik wel of niet als section moest doen. Voor de rest ging het vrij vlot, omdat ik mijn breakdownsschets al had gemaakt.
 
+  <img src="screenshot 1.png" width= "375px" alt="screenshot van iets waar ik tegen aanliep">
+  <img src="screenshot2.png" width= "375px" alt="screenshot van iets waar ik tegen aanliep">
+
+  Bij screenshot 1 twijfelde ik hoe ik de tekst moest indelen. Allemaal p of is de bovenste een h2? En de tekst die je over de afbeelding heen ziet staan, had ik als div. Ik wist ook niet of dit nodig was ja of nee. Het was niet nodig als divje uiteindelijk. Ik ben heel blij met de voortgangsgesprekken, want dan weet je een beetje of je goed zit ja of nee. 
+
+  Bij screenshot 2 wist ik niet zo goed hoe ik het moest indelen qua sections. Ik heb wat hulp gevraagd en het was dus maar 1 sections en ik had er echt 4 van gemaakt. 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
@@ -119,9 +122,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Eigenlijk ging alles met vallen en opstaan. Sommige dingen gingen wel in één keer goed, zoals de afbeeldingen scrollbaar krijgen en het lettertype van loavies krijgen. Het lettertype heb ik gevonden door in de style van hun website te kijken bij het inspecteren. 
 
+  Voor de rest was het heel veel proberen wat wel lukt en wat niet lukt. Ik heb de tekst over de afbeelding gekregen door position absolute en relative, maar bij sommige heb ik weer grid gebruikt. Ik vind grid best lastig om te begrijpen. Ik denk telkens dat ik het begrijp en dan ga ik het zelf proberen en dan doet het niet wat ik wil. Ik ga zo in het voortgangsgesprek wat uitleg vragen als daar tijd voor is. 
 
+  Ik heb de homepagina ongeveer afgekregen. Op een paar buttons na, omdat ik er niet uitkom met grid. Ook de footer lukt niet helemaal. De detailpagina heb ik ook proberen te maken, maar dat lukt niet helemaal goed met aanspreken. Danny zei dat ik meerdere css bestanden kon aanmaken hiervoor. Maar ik vindt dat zelf heel ingewikkeld om te doen, omdat je dan ook een css bestand moet maken van stylen wat je in beide pagina's gebruikt.
   ### Agenda voor meeting
   samen met je groepje opstellen
 
