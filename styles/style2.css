@@ -1,5 +1,5 @@
 @media (max-width: 999px) {
-section:nth-of-type(1) ul {
+section:nth-of-type(1) ul:nth-of-type(1) {
 	display: flex;
 	overflow: auto;
 	scroll-snap-type: x mandatory;
@@ -12,13 +12,13 @@ section:nth-of-type(1) ul {
 	gap: 1em;
 }
 
-section:nth-of-type(1) li{
+section:nth-of-type(1) ul:nth-of-type(1) li{
 	flex-basis: 100%;
 	flex-shrink: 0;
 	scroll-snap-align: center;
 }
 
-section:nth-of-type(1) ul::scroll-marker-group {
+section:nth-of-type(1) ul:nth-of-type(1)::scroll-marker-group {
 		margin: 1em 3.5em 0;
 		display: flex;
 		flex-wrap: wrap;
@@ -28,7 +28,7 @@ section:nth-of-type(1) ul::scroll-marker-group {
 		column-gap:.5em;
 	}
 
-section:nth-of-type(1) li::scroll-marker {
+section:nth-of-type(1) ul:nth-of-type(1) li::scroll-marker {
 		content: '' / 'naar' attr(data-label);
 		width:0.5em;
 		aspect-ratio:1;
@@ -36,7 +36,7 @@ section:nth-of-type(1) li::scroll-marker {
 		border-radius:50%;
 		transition:.25s;
 	}
-	section:nth-of-type(1) li::scroll-marker:target-current{
+	section:nth-of-type(1) ul:nth-of-type(1) li::scroll-marker:target-current{
 		background: var(--bolletjescolor1);
 	
 	}
@@ -106,7 +106,7 @@ section:nth-of-type(1) button {
 		display: flex;
 
 	}
-	section:nth-of-type(1) ul {
+	section:nth-of-type(1) ul:nth-of-type(1) {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 		grid-template-rows: 1fr 1fr;
@@ -241,6 +241,7 @@ section:nth-of-type(1) button {
 				margin: 1em;
 				padding: 1em;
 			}
+			
 	
 		}
 
@@ -256,7 +257,41 @@ section:nth-of-type(1) button {
 /*****************/
 /*meer over dit product knop*/
 /*****************/
-
+details summary {
+	font-family: "Inter", sans-serif;
+	font-size: medium;
+	font-weight: 600;
+	font-style: normal;
+}
+summary::after {
+	content: '+';
+	font-size: x-large;
+	margin-left: 5em;
+}
+summary {
+	list-style-type: none;
+	font-family: "Inter", sans-serif;
+	font-size: small;
+	font-weight: 600;
+	font-style: normal;
+}
+summary::-webkit-details-marker {
+  display: none;
+}
+details {
+	border: 1px solid var(--randcolor);
+	margin-top: 1em;
+	padding: 1em;
+	list-style-type: none;
+	font-family: "Inter", sans-serif;
+	font-size: small;
+	font-weight: 300;
+	font-style: normal;
+}
+details[open] summary:after {
+	content: '-';
+	font-size: x-large;
+}
 
 /************/
 /* section 4*/
