@@ -52,7 +52,7 @@ section:nth-of-type(1)  a {
     }
 }
 
-@media (min-width: 100px) {
+@media (min-width: 1000px) {
 	.florence video {
 	grid-column: 1 / -1;
 	grid-row: 1 / -1;
@@ -415,7 +415,8 @@ section:nth-of-type(7) li {
 	flex-shrink: 0;
 }
 section:nth-of-type(7) img{
-	height: 12em;
+	height: 72%;
+	width: 100%;
 }
 
 section:nth-of-type(7) p {
