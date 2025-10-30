@@ -176,6 +176,38 @@ section:nth-of-type(1) div ul p {
 section:nth-of-type(1) div details:nth-of-type(1) {
 	display: none;
 }
+details summary::after {
+	content: '+';
+	font-size: x-large;
+	margin-left: 42%;
+}
+details summary {
+	list-style-type: none;
+	font-family: "Inter", sans-serif;
+	font-size: medium;
+	font-weight: 600;
+	font-style: normal;
+}
+details summary::-webkit-details-marker {
+    display: none;
+}
+details {
+	border: 1px solid var(--randcolor);
+	margin-top: 1em;
+	padding: 1em;
+	list-style-type: none;
+	font-family: "Inter", sans-serif;
+	font-size: small;
+	font-weight: 300;
+	font-style: normal;
+}
+details [open] summary::after {
+	content: '-';
+	font-size: x-large;
+}
+p:nth-of-type(3), p:nth-of-type(4), p:nth-of-type(5), p:nth-of-type(6), p:nth-of-type(7), p:nth-of-type(8){
+	display: none;
+}
 
 }
 
@@ -240,62 +272,7 @@ section:nth-of-type(1) div details:nth-of-type(1) {
 			margin-left: 1.5em;
 			margin-bottom: 0em;
 		}
-		details:nth-of-type(1) {
-			margin-top: 1rem;
-			position: relative;
-			max-width: 40ch; /* optioneel: breedtebeperking */
-		  }
-		  
-		  /* Samenvatting (de "Lees verder"-knop) */
-		  details:nth-of-type(1) summary {
-			font-size: 0.95rem;
-			color: #000;
-			text-decoration: underline;
-			cursor: pointer;
-			list-style: none;
-			margin-top: 0.5rem;
-		  }
-		  
-		  details:nth-of-type(1) summary:hover {
-			text-decoration: none;
-		  }
-		  
-		  /* Verberg standaard marker (pijltje) */
-		  details:nth-of-type(1) summary::-webkit-details-marker {
-			display: none;
-		  }
-		  
-		  /* ✂️ Beschrijving: toon alleen eerste deel */
-		  .beschrijving {
-			max-height: 3.5em;         /* toont ± 2 regels tekst */
-			overflow: hidden;
-			position: relative;
-			transition: max-height 0.4s ease;
-		  }
-		  
-		  /* Maak een zachte fade-out aan de onderkant */
-		  .beschrijving::after {
-			content: "";
-			position: absolute;
-			bottom: 0;
-			left: 0;
-			right: 0;
-			height: 1.5em;
-			background: linear-gradient(to bottom, transparent, white);
-		  }
-		  
-		  /* 📖 Als details open is → toon alles */
-		  details:nth-of-type(1)[open] .product-description {
-			max-height: 100em; /* genoeg ruimte om alles te tonen */
-		  }
-		  
-		  /* Fade verwijderen bij open */
-		  details:nth-of-type(1)[open] .product-description::after {
-			display: none;
-		  }
-		  
-		  
-
+	
 
 		section:nth-of-type(1) button {
 			background-color: var(--backgroundcolor2);
@@ -402,6 +379,12 @@ section:nth-of-type(1) div details:nth-of-type(1) {
 			section:nth-of-type(1) > div details:nth-of-type(2){
 				display: none;
 			}
+		summary{
+			display: none;
+		}
+		div {
+			position: sticky;
+		}
 		
 		}
 
@@ -409,44 +392,8 @@ section:nth-of-type(1) div details:nth-of-type(1) {
 
 
 
-/*******************/
 
 
-
-
-/*****************/
-/*meer over dit product knop*/
-/*****************/
-
-div details:nth-of-type(2) summary::after {
-	content: '+';
-	font-size: x-large;
-	margin-left: 6em;
-}
-div details:nth-of-type(2) summary {
-	list-style-type: none;
-	font-family: "Inter", sans-serif;
-	font-size: medium;
-	font-weight: 600;
-	font-style: normal;
-}
-div details:nth-of-type(2) summary::-webkit-details-marker {
-    display: none;
-}
-div details:nth-of-type(2) {
-	border: 1px solid var(--randcolor);
-	margin-top: 1em;
-	padding: 1em;
-	list-style-type: none;
-	font-family: "Inter", sans-serif;
-	font-size: small;
-	font-weight: 300;
-	font-style: normal;
-}
-div details:nth-of-type(2)[open] summary:after {
-	content: '-';
-	font-size: x-large;
-}
 
 /************/
 /* section 4*/
