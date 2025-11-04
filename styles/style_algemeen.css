@@ -239,7 +239,7 @@ section:nth-of-type(2) button {
 
 }
 
-.artikelen p:nth-of-type(1), p:nth-of-type(3) {
+.artikelen p:nth-of-type(1),.artikelen p:nth-of-type(3) {
 	font-weight: 600;
 }
 
