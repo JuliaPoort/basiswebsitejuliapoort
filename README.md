@@ -39,11 +39,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   homepagina
-  <img src="readme-images/loavies screenshot homepagina.jpg" width="375px" alt="screenshot van de homepagina">
+  <img src="readme-images/loavies screenshot homepagina.png" width="375px" alt="screenshot van de homepagina">
 
   #### Screenshot(s) van de tweede pagina (small screen):
   detailpagina
-  <img src="readme-images/loavies screenshot detailpagina.jpg" width="375px" alt="screenshot van de detailpagina">
+  <img src="readme-images/loavies screenshot detailpagina.png" width="375px" alt="screenshot van de detailpagina">
  
 </details>
 
@@ -70,8 +70,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="breakdownschets homepagina.png" width="375px" alt="breakdown van de homepagina">
-  <img src="breakdownschets detailpagina.png" width="375px" alt="breakdown van de detailpagina">
+  <img src="readme-images/breakdownschets homepagina.jpg" width="375px" alt="breakdown van de homepagina">
+  <img src="readme-images/breakdownschets detailpagina.jpg" width="375px" alt="breakdown van de detailpagina">
   
 </details>
 
@@ -88,8 +88,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Het begon heel goed. Ik ben deze week begonnen met allebei mijn html pagina's. Het was moeilijk om niet gelijk
   te beginnen aan mijn css, maar wel beter voor mezelf. Voor html had ik vooral moeite met wat ik wel of niet als section moest doen. Voor de rest ging het vrij vlot, omdat ik mijn breakdownsschets al had gemaakt.
 
-  <img src="screenshot 1.png" width= "375px" alt="screenshot van iets waar ik tegen aanliep">
-  <img src="screenshot2.png" width= "375px" alt="screenshot van iets waar ik tegen aanliep">
+  <img src="readme-images/screenshot1.png" width= "375px" alt="screenshot van iets waar ik tegen aanliep">
+  <img src="readme-images/screenshot2.png" width= "375px" alt="screenshot van iets waar ik tegen aanliep">
 
   Bij screenshot 1 twijfelde ik hoe ik de tekst moest indelen. Allemaal p of is de bovenste een h2? En de tekst die je over de afbeelding heen ziet staan, had ik als div. Ik wist ook niet of dit nodig was ja of nee. Het was niet nodig als divje uiteindelijk. Ik ben heel blij met de voortgangsgesprekken, want dan weet je een beetje of je goed zit ja of nee. 
 
@@ -259,7 +259,7 @@ De tekst met informatie over de items moest eigenlijk uitklapbaar worden gemaakt
 
 <img src="readme-images/leesverder_ingeklapt (1).jpg" width="375px" alt="voorbeeld tekst">
 <img src="readme-images/leesverder_uitgeklapt (1).jpg" width="375px" alt="voorbeeld tekst">
-<img src="readme-images/code_info1.jpg width="width="375px" alt="code uitklapbare tekst">
+<img src="readme-images/code_info1.jpg" width="375px" alt="code uitklapbare tekst">
 <img src="readme-images/code_info2.jpg" width="375px" alt="code uitklapbare tekst">
 
 
@@ -290,5 +290,10 @@ De tekst met informatie over de items moest eigenlijk uitklapbaar worden gemaakt
   9. Oefening codepen: https://dlo.mijnhva.nl/content/enforced/702741-FDMCI-CRS-00045462/FED%2025-26%20-%20Blok%201%20-%20Oefening%20positioneren%20-%201%20Zet%20dingen%20op%20plekken.pdf
   10. MDN heb ik gebruikt voor kleine vraagjes, zoals deze: https://developer.mozilla.org/en-US/docs/Web/CSS/overflow Ik had als idee om overflow te gebruiken. Ik zoek dan hier even op welke ik dan het best zou kunnen gebruiken. Deze website is superfijn, omdat je er dan een voorbeeldje bij krijgt. 
   11. Ook heb ik veel samen gewerkt met klasgenoten. We gingen dan in de studieruimte zitten en hielpen elkaar een beetje. Dit was echt super.
+  12. Chat gpt: https://chatgpt.com/c/68da3ffe-ac00-8327-820c-e85aff3ed6a1
+  13. Chat gpt: https://chatgpt.com/c/68e76ab9-b504-8326-be7b-14886fb22259
+  14. Chat gpt: https://chatgpt.com/c/68f61c1d-0308-8325-b3b1-25d45989193a 
+
+
 
 </details>
